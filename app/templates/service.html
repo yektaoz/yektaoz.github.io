@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+  <!-- we do section -->
+
+  <section class="wedo_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          What We do
+        </h2>
+        <p>
+          Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="box pr-0 pr-lg-5">
+            <div class="img-box">
+              <img src="{{ url_for('static', filename = 'images/wedo-img2.png')}}" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Social Marketing
+              </h5>
+              <p>
+                passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+              </p>
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box pr-0 pr-lg-5">
+            <div class="img-box">
+              <img src="{{ url_for('static', filename = 'images/wedo-img3.png')}}" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Content Marketing
+              </h5>
+              <p>
+                passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+              </p>
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box pr-0 pr-lg-5">
+            <div class="img-box">
+              <img src="{{ url_for('static', filename = 'images/wedo-img4.png')}}" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Data Analysis
+              </h5>
+              <p>
+                passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+              </p>
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="box pr-0 pr-lg-5">
+            <div class="img-box">
+              <img src="{{ url_for('static', filename = 'images/wedo-img1.png')}}" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Digital Marketing
+              </h5>
+              <p>
+                passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+              </p>
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end we do section -->
+
+
+  {%endblock%}

@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          What Says Our Clients
+        </h2>
+      </div>
+      <div class="carousel-wrap ">
+        <div class="owl-carousel">
+          <div class="item">
+            <div class="box">
+              <div class="client_id">
+                <div class="img-box">
+                  <img src="{{ url_for('static', filename = 'images/client-img1.jpg')}}" alt="">
+                </div>
+                <div class="client_detail">
+                  <h5>
+                    Jims thomas
+                  </h5>
+                  <h6>
+                    hidden in the
+                  </h6>
+                </div>
+              </div>
+              <div class="client_text">
+                <p>
+                  If you are going to use a passage of Lorem Ipsum, you need to be sure th
+                  ere isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="client_id">
+                <div class="img-box">
+                  <img src="{{ url_for('static', filename = 'images/client-img2.jpg')}}" alt="">
+                </div>
+                <div class="client_detail">
+                  <h5>
+                    Thomas mor
+                  </h5>
+                  <h6>
+                    Hidden
+                  </h6>
+                </div>
+              </div>
+              <div class="client_text">
+                <p>
+                  If you are going to use a passage of Lorem Ipsum, you need to be sure th
+                  ere isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  {%endblock%}

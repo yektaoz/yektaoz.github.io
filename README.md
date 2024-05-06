@@ -1,1 +1,0 @@
-# yektaoz.github.io

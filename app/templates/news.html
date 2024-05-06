@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+
+  <!-- news section -->
+
+  <section class="news_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Latest News
+        </h2>
+        <p>
+          Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 ">
+          <div class="detail_container">
+            <div class="detail-box">
+              <h4>
+                Publishing packages Web page
+              </h4>
+              <div class="news_social">
+                <a href="">
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <span>
+                    Like
+                  </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-comment" aria-hidden="true"></i>
+                  <span>
+                    Comment
+                  </span>
+                </a>
+                <li><a href="#" onclick="showShareAlert()">Share</a></li>
+                                  <i class="fa fa-share-alt" aria-hidden="true"></i>
+                  <span>
+                    Share
+                  </span>
+                </a>
+              </div>
+              <p>
+                College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtableCollege in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 ">
+          <div class="img-box">
+            <img src="{{ url_for('static', filename = 'images/news-img.jpg')}}" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end news section -->
+
+  <script>
+    function showShareAlert() {
+      alert("Sharing is caring!");
+    }
+  </script>
+  
+  {%endblock%}
